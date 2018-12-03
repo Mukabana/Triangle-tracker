@@ -7,21 +7,17 @@
 </head>
 
 <body>
-
   <h1>TRIANGLE TRACKER</h1>
-  <p>Please enter the lengths of a triangle's sides to determine the type of triangle.</p>
+<form>
 
+  <p>Please enter the lengths of a triangle's sides to determine the type of triangle.</p><br>
 
   <p>
-    side1 <br>
-    <input type="text" size="6px" id="length1"> <br>
-    side2 <br>
-    <input type="text" size="6px" id="length2"> <br>
-    side3 <br>
-    <input type="text" size="6px "id="length3"><br>
+    <input type="text" placeholder="side1" id="length1"> <br><br>
+    <input type="text" placeholder="side2" id="length2"> <br><br>
+    <input type="text" placeholder="side3" id="length3"> <br>
 
-
-  </p>
+  </p><br>
 
   <ol>
     <li>Click the button below to see what type of triangle it is. </li> <br>
@@ -29,13 +25,14 @@
     <li>If your numbers cannot form a triangle, a message will appear stating "Not a triangle". Click "ok" and try again if you wish. </li> <br>
   </ol>
 
-  <p>
-    <button type="button" onclick="getValue()">What type of triangle is it?</button></p>
+  <p><br>
+    <button type="button" id="submit" onclick="getValue()">What triangle is it?</button></p><br>
+    <input type="reset" id="res" value="Reset">
 
+</form>
 
     <script src="js/main.js"></script>
 
 </body>
-
 
 </html>
