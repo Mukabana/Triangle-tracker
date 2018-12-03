@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TRIANGLE TRACKER</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+  <h1>TRIANGLE TRACKER</h1>
+<form>
+
+  <p>Please enter the lengths of a triangle's sides to determine the type of triangle.</p><br>
+
+  <p>
+    <input type="text" placeholder="side1" id="length1"> <br><br>
+    <input type="text" placeholder="side2" id="length2"> <br><br>
+    <input type="text" placeholder="side3" id="length3"> <br>
+
+  </p><br>
+
+  <ol>
+    <li>Click the button below to see what type of triangle it is. </li> <br>
+    <li>A message will pop up informing you of the triangle type. Click "ok". </li> <br>
+    <li>If your numbers cannot form a triangle, a message will appear stating "Not a triangle". Click "ok" and try again if you wish. </li> <br>
+  </ol>
+
+  <p><br>
+    <button type="button" id="submit" onclick="getValue()">What triangle is it?</button></p><br>
+    <input type="reset" id="res" value="Reset">
+
+</form>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
